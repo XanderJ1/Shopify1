@@ -31,8 +31,8 @@ function getIt(){
 
 <template>
 
-    <h1 class="text-center text-3xl" @click="getIt()"> Hello </h1>
-    <RouterLink to="/addProduct"> AddProduct</RouterLink>
+    <h1 class="text-center text-3xl" @click="getIt()"> Featured Products </h1>
+    <!-- <RouterLink to="/addProduct"> AddProduct</RouterLink> -->
     <div class="grid-container">
     <div class="firstProduct">
         <div class="img-cont">
